@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Kyles ecommerce</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="shop-name">
+        <button onclick="openSideMenu()">
+          &#9776;<!--hamburger menu-->
+        </button>
+        <a href="index.html" class="shop-center" >Monutain Bikes for you...</a>
+      </div>
+      <div class="header-links">
+        <a href="trolley.html">Shopping Trolley</a>
+        <a href="signin.html">Sign In</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>Shopping Categories</h3>
+      <button class="sidebar-close-button" onclick="closeSideMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">29er</a>
+        </li>
+
+        <li>
+          <a href="index.html">26er</a>
+        </li>
+
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Red Mountain Bike</a>
+              </div>
+              <div class="product-brand">Canyon</div>
+              <div class="product-price">£1500</div>
+              <div class="product-rating">4.8 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Red Mountain Bike</a>
+              </div>
+              <div class="product-brand">Canyon</div>
+              <div class="product-price">£1500</div>
+              <div class="product-rating">4.8 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Red Mountain Bike</a>
+              </div>
+              <div class="product-brand">Canyon</div>
+              <div class="product-price">£1500</div>
+              <div class="product-rating">4.8 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Red Mountain Bike</a>
+              </div>
+              <div class="product-brand">Canyon</div>
+              <div class="product-price">£1500</div>
+              <div class="product-rating">4.8 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Red Mountain Bike</a>
+              </div>
+              <div class="product-brand">Canyon</div>
+              <div class="product-price">£1500</div>
+              <div class="product-rating">4.8 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <img class="product-image" src="./images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Red Mountain Bike</a>
+              </div>
+              <div class="product-brand">Canyon</div>
+              <div class="product-price">£1500</div>
+              <div class="product-rating">4.8 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          
+
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+      All right reserved by Kyle.
+    </footer>
+  </div>
+  <script>
+    function openSideMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeSideMenu() {
+      document.querySelector(".sidebar").classList.remove("open");
+    }
+  </script>
+</body>
+
+</html>
